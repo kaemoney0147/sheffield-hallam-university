@@ -1,0 +1,120 @@
+
+body{
+/* font-family: FFMetaWebPro,Geneva,Lucida Grande,Arial,sans-serif; */
+/* background-color: #F7F7F7; */
+}
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: #B7004C;
+    width: 100px;
+    font-weight:bold;
+}
+.logo1{
+    border-bottom: 2px solid #7B003A;
+    color: #7B003A;
+}
+.logo2{
+    font-size: 10px;
+    color: #A7A7A6;
+}
+#nav-log{
+    justify-content: space-between;
+    background-color: #F7F7F7;
+}
+.underlist-logo{
+    list-style: none;
+    gap: 10px;
+}
+.navbar-nav{
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid #e2e2e2;
+    border-bottom: 0;
+}
+.navbar-nav .nav-item{
+    display: inline-block;
+    position: relative;
+}
+.navbar-nav .nav-item:not(:last-child)::after{
+    content:""; 
+    border:1px solid #e2e2e2;
+    border-width: 1px 1px 0 0;
+    position:absolute; 
+    right:-3px; 
+    top:0; 
+    height:100%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #333;;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+  .jumbotron{
+    background-size: cover;
+    display: flex;
+    margin-top: -0.5rem;
+    margin-bottom: 0;
+  }
+  .jumbotron-text{
+   align-self: center;
+   padding: 100px;
+  
+  }
+  .jumbotron-text h2{
+    font-size: 71px;
+   font-weight: bold;
+   color: #fff;
+  }
+  .jumbotron-text p{
+    font-size: 36px;
+    color: #fff;
+  }
+  .jumbotron-text .btn{
+    border: 0.125rem solid transparent;
+    background: #fff;
+    color: #ba0046!important;
+  }
+ #section-1{
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+
+ }
+ .section1-input{
+    border-radius: 30px;
+    height: 50px;
+ }
+ .section{
+    width: 70%;
+    height: 120px;
+ }
+ .section h2{
+    font-size: 36px;
+ }
+ .search-course{
+    display: flex;
+ }
+ .section1-input{
+    width: 100%;
+    padding: 15px;
+ }
+ .section1-icon{
+    margin-left: -2.5rem;
+    align-self: center;
+ }
+.section-2{
+    font-size: 60px;
+ }
+ #hero{
+    height: 80vh;
+ }
+ #hero-section{
+    padding-top: 50px;
+ }
+ .card-body h2,
+ .card-body a{
+    font-size: 25px;
+    color: black;
+ }
